@@ -4,7 +4,9 @@ from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten
 import matplotlib.pyplot as plt
-
+'''
+Искутссвенный интелект из трех слоев для распознания цифр
+'''
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
 plt.figure(figsize=(10, 10))
 for i in range(25):
